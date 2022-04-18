@@ -524,7 +524,6 @@ GameObject:
   - component: {fileID: 963194226}
   - component: {fileID: 963194229}
   - component: {fileID: 963194230}
-  - component: {fileID: 963194231}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -622,19 +621,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85b7a6bb3d3d5c54ea421d52c7cddd83, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  controller: {fileID: 0}
   speed: 5
---- !u!114 &963194231
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 963194225}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 96e4adf1f9a2f5245bc2e9599c6b47ce, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &991262446
 GameObject:
   m_ObjectHideFlags: 0
@@ -1469,7 +1457,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73dfde56c499ef14e97d363aa54e9472, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  highLightedMaterial: {fileID: 2100000, guid: d8a44d27dd79ee54396cb868e42b8336, type: 2}
+  highlightedMaterial: {fileID: 0}
+  textObj: {fileID: 0}
 --- !u!4 &1739351173
 Transform:
   m_ObjectHideFlags: 0
